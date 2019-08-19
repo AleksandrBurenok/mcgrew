@@ -1,0 +1,31 @@
+.slider
+  &__bg
+    background: #1b97c5 url('/img/bg-slider.png') no-repeat center bottom
+    background-size: cover
+    width: 100%
+    height: 600px
+    position: relative
+    margin-bottom: 111px
+    .fade
+      margin: 0 auto
+      width: 756px
+      position: absolute
+      left: 0
+      right: 0
+      top: 24%
+
+@media (min-width: 768px) and (max-width: 1024px)
+  .slider
+    &__bg
+      height: 370px
+      .fade
+        width: 75%
+        top: 20%
+
+@media (min-width: 481px) and (max-width: 767px)
+  .slider
+    &__bg
+      height: 300px
+      .fade
+        width: 90%
+        top: 30%

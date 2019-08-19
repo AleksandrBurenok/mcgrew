@@ -1,0 +1,21 @@
+.partners
+  &__img
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding-top: 26px
+    padding-bottom: 24px
+
+@media (min-width: 768px) and (max-width: 1024px)
+  .container
+    .partners
+      &__img
+        flex-wrap: wrap
+        justify-content: center
+        img
+          padding: 10px
+@media (min-width: 481px) and (max-width: 767px)
+  .partners
+    &__img
+      flex-wrap: nowrap
+      flex-direction: column

@@ -1,0 +1,110 @@
+@media (min-width: 1025px) and (max-width: 1280px)
+  .container
+    width: 1008px
+
+@media (min-width: 768px) and (max-width: 1024px)
+  .section-title
+    font-size: 32px
+  .line__blue
+    padding-bottom: 5px
+  .btn
+    padding: 19px 34px
+  .container
+    width: 751px
+    position: relative
+
+@media (min-width: 481px) and (max-width: 767px)
+  .section-title
+    font-size: 32px
+  .line__blue
+    padding-bottom: 5px
+  .btn
+    padding: 19px 34px
+  .container
+    max-width: 100%
+    width: 100%
+    position: relative
+  .slider
+    display: none
+
+@media (min-width: 320px) and (max-width: 480px)
+  .section-title
+    font-size: 32px
+  .line__blue
+    padding-bottom: 5px
+  .btn
+    padding: 19px 34px
+    font-size: 16px
+  .container
+    max-width: 100%
+    width: 100%
+    position: relative
+    .hero
+      background: #d2730c
+      text-align: center
+      .help
+        padding: 0
+        padding-bottom: 20px
+        max-width: 100%
+        &__subtitle
+          margin: 20px 0
+      .navbar
+        height: 80px
+        .logo
+          margin-right: 20px
+        .nav
+          opacity: 0
+          transform: translateY(-200%)
+          display: flex
+          flex-direction: column
+          align-items: center
+          justify-content: space-around
+          width: 100%
+          position: absolute
+          left: 0
+          background-color: #e1aa6e
+          padding: 20px 0
+          &__active
+            opacity: 1
+            transform: translateY(120px)
+          &__link
+            margin: 0
+            padding-bottom: 5px
+            margin-bottom: 20px
+        .hamburger
+          display: block
+    .partners
+      &__img
+        flex-wrap: nowrap
+        flex-direction: column
+        justify-content: center
+        img
+          padding: 10px
+    .support
+      &-people__content
+        padding-left: 20px
+        padding-right: 20px
+        padding-top: 10px
+    .services
+      &-wrapper
+        padding: 20px
+    .team
+      &-img
+        display: none
+      &-join
+        max-width: 100%
+        text-align: center
+        padding: 18px 29px
+    .footer
+      &-top
+        padding: 22px 0
+        &-nav
+          display: flex
+          flex-direction: column
+          &__link
+            margin-right: 0
+            margin-bottom: 15px
+        &-blocks
+          margin: 23px auto
+  .slider
+    display: none

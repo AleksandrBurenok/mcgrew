@@ -1,0 +1,49 @@
+.footer
+  text-align: center
+  &-top
+    border-top: 3px solid #cccccc
+    border-bottom: 2px solid #eeeeee
+    padding: 44px 0
+    &-nav
+      &__link
+        color: #999999
+        text-transform: uppercase
+        text-decoration: none
+        margin-right: 56px
+        font-weight: 700
+        &:last-child
+          margin-right: 0
+    &-blocks
+      display: flex
+      align-items: center
+      justify-content: space-between
+      width: 120px
+      margin: 46px auto
+      &__grey
+        background-color: #eeeeee
+        width: 13px
+        height: 13px
+    &-contacts
+      color: #aaaaaa
+      font-size: 14px
+      line-height: 20px
+      &__email
+        color: #e3b07b
+        text-decoration: none
+        font-weight: 700
+        font-size: 16px
+        letter-spacing: 1px
+  &-bottom
+    color: #cfcfcf
+    font-size: 12px
+    letter-spacing: .5px
+    padding: 21px 0
+
+@media (min-width: 481px) and (max-width: 767px)
+  .footer
+    &-top
+      &-nav
+        &__link
+          margin-right: 35px
+          &:last-child
+            margin-right: 0
