@@ -10,7 +10,7 @@ $(document).ready(function(){
   });
 
   if (window.devicePixelRatio > 1) {
-    let lowresImages = $('img');
+    let images = $('img');
 
     images.each(function(i) {
       let lowres = $(this).attr('src');
